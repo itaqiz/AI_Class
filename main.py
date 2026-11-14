@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 
-class Student:
+class Student303:
     def __init__(self, student_id, name, age, department, marks):
         self.student_id = student_id
         self.name = name
