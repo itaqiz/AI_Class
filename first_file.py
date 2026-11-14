@@ -4,17 +4,7 @@ from datetime import datetime
 
 
 class Student:
-    def __init__(self, student_id, name, age, department, marks):
-        self.student_id = student_id
-        self.name = name
-        self.age = age
-        self.department = department
-        self.marks = marks
-
-    def calculate_average(self):
-        if not self.marks:
-            return 0
-
+    
         return sum(self.marks) / len(self.marks)
 
     def calculate_grade(self):
